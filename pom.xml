@@ -1,7 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>m1.sir</groupId>
 	<artifactId>classcounter-maven-plugin</artifactId>
 	<packaging>maven-plugin</packaging>
 	<version>0.0.1-SNAPSHOT</version>
@@ -20,4 +19,10 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<groupId>fr.istic.m2gla</groupId>
+	<scm>
+		<url>https://github.com/mdiansow/classcounter-maven-plugin.git</url>
+		<connection>https://github.com/mdiansow/classcounter-maven-plugin.git</connection>
+		<developerConnection>mdiansow</developerConnection>
+	</scm>
 </project>
